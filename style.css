@@ -1,0 +1,163 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: whitesmoke;
+      color: beige;
+      font-family: "Raleway", sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(72, 63, 63);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style-type: none;
+      margin: 0 33px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: beige;
+    }
+
+    nav ul li a:hover {
+      color: violet;
+      font-size: 1rem;
+    }
+
+    .left {
+      font-size: 1rem;
+    }
+
+    .first {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 14vh 0;
+    }
+
+    .second {
+      color: black;
+      margin: 60px;
+      font-weight: bold;
+      font-size: 3rem;
+      height: 80vh;
+      margin-bottom: 0%;
+    }
+
+    .leftSection {
+      background-color: whitesmoke;
+      color: black;
+      width: 50%;
+      font-size: 4.5rem;
+      margin-left: 60px;
+    }
+
+    .rightSection img {
+      width: 50%;
+      margin: 10px 10px;
+      margin-left: 280px;
+    }
+
+    .purple {
+      color: purple;
+    }
+
+    #element {
+      color: purple;
+      font-weight: bold;
+    }
+
+    main hr {
+      border: 0;
+      background-color: purple;
+      height: 2px;
+      margin-left: 60px;
+      margin-right: 80px;
+    }
+
+    .education {
+      padding: 30px;
+      background: #f8f9fa;
+    }
+
+    .education h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 15px;
+      color: black;
+    }
+
+    table {
+      justify-content: center;
+      width: 90%;
+      height: 60%;
+      border-collapse: collapse;
+      font-size: 18px;
+      color: black;
+      margin-top: 0px;
+      margin-left: 60px;
+      margin-bottom: 2000px;
+    }
+
+    table th,
+    table td {
+      border: 1px solid #090909;
+      padding: 12px;
+      text-align: left;
+    }
+
+    table th {
+      background-color: #444;
+      color: white;
+    }
+
+    table tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .marquee {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
+      background: whitesmoke;
+      /* Dark background */
+      padding: 10px 0;
+    }
+
+    .marquee span {
+      display: inline-block;
+      color: black;
+      /* Text visible */
+      font-size: 1.7rem;
+      /* Bigger text */
+      padding-left: 100%;
+      animation: scroll-left 10s linear infinite;
+      font-weight: bold;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(100%);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+    }
